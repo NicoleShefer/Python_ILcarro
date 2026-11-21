@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from config import EMAIL, PASSWORD
+from conftest import EMAIL, PASSWORD
 
 URL = "https://icarro-v1.netlify.app/login"
 SUBMIT = (By.CSS_SELECTOR, "button[type='submit']")
